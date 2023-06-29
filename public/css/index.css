@@ -1,118 +1,162 @@
-.task1 .item {
+.task1 .item .description {
+  position: relative;
+  float: right 200px;
+  position: bottom 150px;
 }
 
-.task2 .item {
+.task2 .item .description {
+  position: absolute;
+  height: 80px;
+  width: 80px;
 }
 
-.task3 .item {
+.task3 .item .description {
+  position: left;
+  object-position: left;
 }
 
-.container4 {
+.container4 .description {
+ position: absolute;
 }
 
-.task4 {
+.task4 .description {
   width: 1000px;
 }
 .task4 .item {
+  scroll-behavior: auto;
 }
 
-.task5 .item1 {
+.task5 .item1 .description {
   background-color: red;
 }
 .task5 .item2 {
+  position: sticky;
 }
 .task5 .item3 {
   background-color: green;
 }
 
-.task6 .item {
+.task6 .item .description {
+  position: left;
+  clear: both;
 }
 
-.task7 .item {
+.task7 .item .description {
+  position: right;
+  clear: right;
 }
 
-.task8 .item1 {
+.task8 .item1 .description {
+  position: absolute;
 }
 .task8 .item2 {
   height: 120px;
 }
 
 .task8 p {
+  clear: both;
 }
 
-.task9 .item1 {
+.task9 .item1 .description {
   height: 200px;
 }
 .task9 .item2 {
+  position: relative;
 }
 .task9 p {
+  clear: right;
 }
 
-.task10 .item1 {
+.task10 .item1 .description {
+  position: fixed;
+  clear: left;
 }
-.task10 .item2 {
+.task10 .item2 .description {
+  clear: left;
 }
 .task10 p {
+  clear: left;
 }
 
-.task11 .img-item {
+.task11 .img-item .description {
   height: 100%;
   width: 100%;
+  object-position: center;
+  object-fit: contain;
 }
 
-.task12 .img-item {
+.task12 .img-item .description {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+
 }
 
-.task13 .img-item {
+.task13 .img-item .description {
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 
-.task14 .img-item {
+.task14 .img-item .description {
   height: 100%;
   width: 100%;
+  object-fit: scale-down;
 }
 
-.task15 .img-item {
-  height: 100%;
-  width: 100%;
-  object-fit: none;
-}
-
-.task16 .img-item {
-  height: 100%;
-  width: 100%;
-  object-fit: none;
-}
-
-.task17 .img-item {
+.task15 .img-item .description {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: center;
+  clear: right;
 }
 
-.task18 .img-item {
+.task16 .img-item .description {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: top left;
 }
 
-.task19 .img-item {
+.task17 .img-item .description {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: bottom right;
+  float: left;
 }
 
-.task20 {
+.task18 .img-item .description {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  position: left;
+  object-position: top 40px; 
+  object-position: left 25px;
 }
 
-.task21 {
+.task19 .img-item .description {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  position: relative;
+
 }
 
-.task22 {
+.task20 .description {
+  clear: both;
+  user-select: none;
 }
 
-html {
+.task21 .description {
+ user-select: all;
+}
+
+.task22 .description {
+  caret-color: blue;
+}
+
+html .description {
+  scroll-behavior: smooth;
 }
